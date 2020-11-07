@@ -21,17 +21,18 @@
     <title>Weather Forecast</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container col-sm-12">
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-4">
                 <h3>Search for a city:</h3>
-                <input id="9" type="text" class="form-control" placeholder="Enter text" aria-label="Placeholder text" aria-describedby="button-addon2">
-                <div class="input-group-append">
-                <button class="btn btn-outline-secondary text-dark
-                " type="submit" style="width: 50px;" id="button-addon2">Search</button>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="City" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="submit">Search</button>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-9">
+            <div class="col-sm-8">
                 <div class="row">
                     <h3>
                         <span class="city">City </span>
@@ -40,7 +41,15 @@
                     </h3>
                 </div>
                 <div class="row">
-                    
+                    <ul class="components">
+                        <li>Temperature: <span class="temp">degrees</span></li>
+                        <li>Humidity: <span class="humid">percentage</span></li>
+                        <li>Wind Speed: <span class="wind">mph</span></li>
+                        <li>UV Index: <span class="uv">index</span></li>
+                    </ul>
+                </div>
+                <div class="row">
+
                 </div>
             </div>
         </div>
