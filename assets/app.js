@@ -11,3 +11,8 @@ var forecastDay1 = $("#forecastDay1")
 var iconDay1 = $("#iconDay1")
 var tempDay1 = $("#tempDay1")
 var humidityDay1 = $("humidityDay1")
+
+searchBtn.click() {
+
+}
+
